@@ -3,6 +3,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+#define ______ &trans
+#define xxxxxx &none
+
 / {
     behaviors {
         hm: homerow_mods {
