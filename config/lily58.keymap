@@ -32,6 +32,7 @@
         combo_caps  { timeout-ms = <40>; key-positions = <47 48>; bindings = <&kp CAPS>; layers = <0 1 2>; };
         combo_del   { timeout-ms = <40>; key-positions = <39 40>; bindings = <&kp DEL>; layers = <0 1 2>; };
         combo_space { timeout-ms = <70>; key-positions = <15 42>; bindings = <&kp SPACE>; layers = <0 1 2>; };
+        combo_default   { timeout-ms = <35>; key-positions = <5 36>; bindings = <&to 0>; layers = <1>; };
     };
 
     macros {
