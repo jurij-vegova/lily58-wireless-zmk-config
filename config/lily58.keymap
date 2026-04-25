@@ -22,6 +22,34 @@ behaviors {
             bindings = <&mo>, <&kp>;
         };
     };
+combos {
+        compatible = "zmk,combos";
+        combo_esc { timeout-ms = <35>; key-positions = <1 2>; bindings = <&kp ESC>; };
+        combo_tab { timeout-ms = <40>; key-positions = <11 12>; bindings = <&kp TAB>; };
+        combo_caps { timeout-ms = <40>; key-positions = <28 29>; bindings = <&kp CAPS>; };
+        combo_del { timeout-ms = <40>; key-positions = <22 23>; bindings = <&kp DEL>; };
+        combo_space { timeout-ms = <70>; key-positions = <2 32>; bindings = <&kp SPACE>; };
+    };
+
+    macros {
+        alt_f: alt_f { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp F>, <&macro_release &kp RALT>; };
+        alt_g: alt_g { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp G>, <&macro_release &kp RALT>; };
+        alt_q: alt_q { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp Q>, <&macro_release &kp RALT>; };
+        alt_w: alt_w { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp W>, <&macro_release &kp RALT>; };
+        alt_v: alt_v { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp V>, <&macro_release &kp RALT>; };
+        alt_b: alt_b { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp B>, <&macro_release &kp RALT>; };
+        alt_n: alt_n { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp N>, <&macro_release &kp RALT>; };
+        under: under { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp FSLH>, <&macro_release &kp LSHIFT>; };
+        star: star { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp EQUAL>, <&macro_release &kp LSHIFT>; };
+        tilde: tilde { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp N1>, <&macro_release &kp RALT>; };
+        apos: apos { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N2>, <&macro_release &kp LSHIFT>; };
+        qmark: qmark { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp MINUS>, <&macro_release &kp LSHIFT>; };
+        excla: excla { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N1>, <&macro_release &kp LSHIFT>; };
+        equal: equal { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp LSHIFT>, <&macro_tap &kp N0>, <&macro_release &kp LSHIFT>; };
+        more: more { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp COMMA>, <&macro_release &kp RALT>; };
+        less: less { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp DOT>, <&macro_release &kp RALT>; };
+        eur: eur { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&macro_press &kp RALT>, <&macro_tap &kp E>, <&macro_release &kp RALT>; };
+    };
     keymap {
         compatible = "zmk,keymap";
 
