@@ -73,27 +73,27 @@
 &kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                                 &kp Y         &kp U          &kp I         &kp O        &kp P           &kp LBKT
 &kp LSHFT  &hm LGUI A   &hm LALT S   &hm LCTRL D   &hm LSHFT F    &kp G                                 &kp H         &hm RSHFT J    &hm RCTRL K   &hm RALT L   &hm RGUI SEMI   &kp BSLH
 &kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC            &kp SPACE &kp N         &kp M          &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
-                         &none        &kp LALT      &kp LGUI       &kp ENTER                   &kp RET       &mo 1         &none          &none
+                         xxxxxx        &kp LALT      &kp LGUI       &kp ENTER                   &kp RET       &mo 1         xxxxxx          xxxxxx
             >;
         };
 
         game_layer {
             bindings = <
-&kp ESC    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5                          &trans        &trans         &trans        &trans       &trans          &trans
-&kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                           &trans        &trans         &trans        &trans       &trans          &trans
-&kp LSHFT  &kp A        &kp S        &kp D         &kp F          &kp G                           &trans        &trans         &trans        &trans       &trans          &trans
-&kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      &trans    &trans        &trans         &trans        &trans       &trans          &trans
-                         &none        &kp CAPS      &kp LCTRL      &kp LALT      &trans        &trans        &trans         &none
+&kp ESC    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5                          ______        ______        ______        ______        ______        ______
+&kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                           ______        ______        ______        ______        ______        ______
+&kp LSHFT  &kp A        &kp S        &kp D         &kp F          &kp G                           ______        ______        ______        ______        ______        ______
+&kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      ______    ______         ______        ______        ______        ______        ______
+                         &none        &kp CAPS      &kp LCTRL      &kp LALT                    ______        ______        ______     &none
             >;
         };
 
         nav_layer {
             bindings = <
-&trans     &trans       &trans       &trans        &trans         &trans                                   &trans        &trans         &trans        &trans       &trans          &trans
-&trans     &alt_q       &alt_w       &kp UP        &shift_3       &kp STAR                                 &kp LPAR      &shift_7       &shift_5      &kp EQUAL    &star           &trans
-&kp LSHIFT &none        &kp LEFT     &kp DOWN     &kp RIGHT       &alt_f                                   &alt_g       &apos        &kp MINUS      &qmark        &excla           &trans
-&trans     &trans       &kp HOME      &kp END        &alt_v       &alt_b  &trans                 &trans    &alt_n      &equal           &more        &less     &shift_6          &trans
-                         &none       &trans        &trans         &trans                             &trans        &trans        &trans         &none
+______    ______      ______       ______        ______         ______                                   ______        ______         ______        ______       ______          ______
+______     &alt_q       &alt_w       &kp UP        &shift_3       &kp STAR                                 &kp LPAR      &shift_7       &shift_5      &kp EQUAL    &star           ______
+&kp LSHIFT &none        &kp LEFT     &kp DOWN     &kp RIGHT       &alt_f                                   &alt_g       &apos        &kp MINUS      &qmark        &excla           ______
+______     ______      &kp HOME      &kp END        &alt_v       &alt_b     ______                 ______    &alt_n      &equal           &more        &less     &shift_6          ______
+                         &none       ______        ______         ______                             ______        ______       ______         &none
             >;
         };
     };
