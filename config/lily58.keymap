@@ -83,7 +83,7 @@ ______    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5         
 ______    &kp Q        &kp W        &kp E         &kp R          &kp T                           ______        ______        ______        ______        ______        ______
 ______  &kp A        &kp S        &kp D         &kp F          &kp G                           ______        ______        ______        ______        ______        ______
 ______  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      ______    ______         ______        ______        ______        ______        ______
-                         xxxxxx        &kp CAPS      &kp LCTRL      &kp LALT                    ______        ______        ______     xxxxxx
+                         xxxxxx        &kp RALT      &kp LCTRL      &kp LALT                    ______        ______        &to 0     xxxxxx
             >;
         };
 
