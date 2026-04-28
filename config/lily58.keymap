@@ -73,7 +73,7 @@
 &kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                                 &kp Y         &kp U          &kp I         &kp O        &kp P           &kp LBKT
 &kp LSHFT  &hm LGUI A   &hm LALT S   &hm LCTRL D   &hm LSHFT F    &kp G                                 &kp H         &hm RSHFT J    &hm RCTRL K   &hm RALT L   &hm RGUI SEMI   &kp BSLH
 &kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC            &kp SPACE &kp N         &kp M          &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
-                         xxxxxx        &to 1      &kp LGUI       &tm 2 ENTER                   &kp RET       &mo 1         xxxxxx          xxxxxx
+                         xxxxxx        &kp LALT     &kp LGUI       &tm 2 ENTER                   &none       &mo 3         &none          xxxxxx
             >;
         };
 
@@ -94,6 +94,15 @@ ______     &alt_q       &alt_w       &kp UP        &shift_3       &kp STAR      
 &kp LSHIFT &none        &kp LEFT     &kp DOWN     &kp RIGHT       &alt_f                                   &alt_g       &apos        &kp MINUS      &qmark        &excla           xxxxxx
 ______     xxxxxx      &kp HOME      &kp END        &alt_v       &alt_b     xxxxxx                 xxxxxx    &alt_n      &equal           &more        &less     &shift_6          &kp RSHFT
                          xxxxxx       xxxxxx        xxxxxx         xxxxxx                             xxxxxx        xxxxxx       xxxxxx         xxxxxx
+            >;
+        };
+        fun_layer {
+            bindings = <
+ xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
+ xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
+ xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
+ xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx   xxxxxx           xxxxxx   xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
+                            xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx
             >;
         };
     };
