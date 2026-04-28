@@ -79,10 +79,10 @@
 
         game_layer {
             bindings = <
-&kp ESC    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5                          ______        ______        ______        ______        ______        ______
-&kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                           ______        ______        ______        ______        ______        ______
-&kp LSHFT  &kp A        &kp S        &kp D         &kp F          &kp G                           ______        ______        ______        ______        ______        ______
-&kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      ______    ______         ______        ______        ______        ______        ______
+______    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5                          ______        ______        ______        ______        ______        ______
+______    &kp Q        &kp W        &kp E         &kp R          &kp T                           ______        ______        ______        ______        ______        ______
+______  &kp A        &kp S        &kp D         &kp F          &kp G                           ______        ______        ______        ______        ______        ______
+______  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      ______    ______         ______        ______        ______        ______        ______
                          xxxxxx        &kp CAPS      &kp LCTRL      &kp LALT                    ______        ______        ______     xxxxxx
             >;
         };
@@ -91,18 +91,18 @@
             bindings = <
 ______    &kp N6        &kp N7         &kp N8        &kp N9       &kp N0                                   ______        ______         ______        ______       ______          ______
 ______     &alt_q       &alt_w       &kp UP        &shift_3       &kp STAR                                 &kp LPAR      &shift_7       &shift_5      &kp EQUAL    &star           xxxxxx
-&kp LSHIFT &none        &kp LEFT     &kp DOWN     &kp RIGHT       &alt_f                                   &alt_g       &apos        &kp MINUS      &qmark        &excla           xxxxxx
-______     xxxxxx      &kp HOME      &kp END        &alt_v       &alt_b     xxxxxx                 xxxxxx    &alt_n      &equal           &more        &less     &shift_6          &kp RSHFT
-                         xxxxxx       xxxxxx        xxxxxx         xxxxxx                             xxxxxx        xxxxxx       xxxxxx         xxxxxx
+______     &none        &kp LEFT     &kp DOWN     &kp RIGHT       &alt_f                                   &alt_g       &apos        &kp MINUS      &qmark        &excla           xxxxxx
+______     xxxxxx      &kp HOME      &kp END        &alt_v       &alt_b     &kp BSPC                 ______    &alt_n      &equal           &more        &less     &shift_6          &kp RSHFT
+                         xxxxxx       xxxxxx        xxxxxx         xxxxxx                             ______        ______       ______         ______
             >;
         };
         fun_layer {
             bindings = <
- xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
- xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
- xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
- xxxxxx       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx   xxxxxx           xxxxxx   xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
-                            xxxxxx         xxxxxx         xxxxxx         xxxxxx                             xxxxxx         xxxxxx         xxxxxx         xxxxxx
+ ______       &kp F1         &kp F2        &kp F3        &kp F4          xxxxxx                          xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx          xxxxxx
+ ______       &kp F5        &kp F6        &kp F7        &kp F8         xxxxxx                             &kp C_VOL_UP        &kp C_PREV    &kp C_PP      &kp C_NEXT          xxxxxx         xxxxxx
+ ______       &kp F9        &kp F10       &kp F11       &kp F12         xxxxxx                             &kp C_VOL_DN         xxxxxx         xxxxxx         xxxxxx         xxxxxx        &to 1
+ ______       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx   &kp BSPC           ______   xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
+                            xxxxxx         &kp LALT     &kp LGUI       &kp ENTER                              ______         ______         ______         xxxxxx
             >;
         };
     };
