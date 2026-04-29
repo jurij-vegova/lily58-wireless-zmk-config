@@ -79,7 +79,7 @@
 &kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                                 &kp Y         &kp U          &kp I         &kp O        &kp P           &kp LBKT
 &kp LSHFT  &hm LGUI A   &hm LALT S   &hm LCTRL D   &hm LSHFT F    &kp G                                 &kp H         &hm RSHFT J    &hm RCTRL K   &hm RALT L   &hm RGUI SEMI   &kp BSLH
 &kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC            &kp SPACE &kp N         &kp M          &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
-                         xxxxxx        &kp LALT     &kp LGUI       &tm 2 ENTER                   &mo 4       &mo 3         &none          xxxxxx
+                         xxxxxx        &kp LALT     &kp LGUI       &tm 2 ENTER                   &mo NUM       &mo FUN         &none          xxxxxx
             >;
         };
 
@@ -89,7 +89,7 @@ ______    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5         
 ______    &kp Q        &kp W        &kp E         &kp R          &kp T                           ______        ______        ______        ______        ______        ______
 ______  &kp A        &kp S        &kp D         &kp F          &kp G                           ______        ______        ______        ______        ______        ______
 ______  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC      ______    ______         ______        ______        ______        ______        ______
-                         xxxxxx        &kp RALT      &kp LCTRL      &kp LALT                    ______        ______        &to 0     xxxxxx
+                         xxxxxx        &kp RALT      &kp LCTRL      &kp LALT                    ______        ______        &to DEFAULT     xxxxxx
             >;
         };
 
@@ -106,7 +106,7 @@ ______     xxxxxx      &kp HOME      &kp END        &alt_v       &alt_b     &kp 
             bindings = <
  ______       &kp F1         &kp F2        &kp F3        &kp F4          xxxxxx                          &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3         xxxxxx         &bt BT_CLR
  ______       &kp F5        &kp F6        &kp F7        &kp F8         xxxxxx                             &kp C_VOL_UP        &kp C_PREV    &kp C_PP      &kp C_NEXT          xxxxxx         xxxxxx
- ______       &kp F9        &kp F10       &kp F11       &kp F12         xxxxxx                             &kp C_VOL_DN         xxxxxx         xxxxxx         xxxxxx         xxxxxx        &to 1
+ ______       &kp F9        &kp F10       &kp F11       &kp F12         xxxxxx                             &kp C_VOL_DN         xxxxxx         xxxxxx         xxxxxx         xxxxxx        &to GAME
  ______       xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx   &kp BSPC           ______   xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx
                             xxxxxx         &kp LALT     &kp LGUI       &kp ENTER                              ______         ______         ______         xxxxxx
             >;
