@@ -105,5 +105,14 @@ ______     xxxxxx      &kp HOME      &kp END        &alt_v       &alt_b     &kp 
                             xxxxxx         &kp LALT     &kp LGUI       &kp ENTER                              ______         ______         ______         xxxxxx
             >;
         };
+        num_layer {
+            bindings = <
+ ______      xxxxxx        xxxxxx        xxxxxx         xxxxxx         xxxxxx                          xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx 
+ ______      xxxxxx        &kp N1        &kp N2         &kp N3         xxxxxx                          xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx 
+ ______      &kp N0        &kp N4        &kp N5         &kp N6         xxxxxx                          xxxxxx        xxxxxx         xxxxxx         xxxxxx         xxxxxx         xxxxxx 
+ ______      xxxxxx        &kp N7        &kp N8         &kp N9         xxxxxx     &kp BSPC       ______   xxxxxx        xxxxxx        &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
+                         xxxxxx           &kp LALT     &kp LGUI       &kp ENTER                          ______         ______         ______         xxxxxx
+            >;
+        };
     };
 };
