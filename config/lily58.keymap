@@ -14,10 +14,26 @@
 
 / {
     behaviors {
+        hrsft: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <185>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <230>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+        hrwin: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -77,7 +93,7 @@
             bindings = <
 &kp ESC    &kp N1       &kp N2       &kp N3        &kp N4         &kp N5                                &kp N6        &kp N7         &kp N8        &kp N9       &kp N0          &kp PG_UP
 &kp TAB    &kp Q        &kp W        &kp E         &kp R          &kp T                                 &kp Y         &kp U          &kp I         &kp O        &kp P           &kp LBKT
-&kp LSHFT  &hm LGUI A   &hm LALT S   &hm LCTRL D   &hm LSHFT F    &kp G                                 &kp H         &hm RSHFT J    &hm RCTRL K   &hm RALT L   &hm RGUI SEMI   &kp BSLH
+&kp LSHFT  &hrwin LGUI A   &hm LALT S   &hm LCTRL D   &hrsft LSHFT F    &kp G                                 &kp H         &hrsft RSHFT J    &hm RCTRL K   &hm RALT L   &hrwin RGUI SEMI   &kp BSLH
 &kp LCTRL  &kp Z        &kp X        &kp C         &kp V          &kp B   &kp BSPC            &kp SPACE &kp N         &kp M          &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
                          xxxxxx        &kp LALT     &kp LGUI       &tm 2 ENTER                   &mo NUM       &mo FUN         &none          xxxxxx
             >;
