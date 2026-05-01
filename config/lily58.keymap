@@ -14,7 +14,7 @@
 
 / {
     behaviors {
-        hrsft: homerow_mods {
+        hrsft: homerow_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <185>;
@@ -30,7 +30,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-        hrwin: homerow_mods {
+        hrwin: homerow_win {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
